@@ -1,0 +1,22 @@
+[project]
+name = "blog-writer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "wasif12334", email = "kashifaliraza95@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "crewai[tools]>=0.100.1",
+    "python-dotenv>=1.0.1",
+]
+
+[project.scripts]
+blog-writer = "blog_writer.main:result"
+resume_builder = "blog_writer.resumebuilder:resumeBuilder"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
