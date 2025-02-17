@@ -57,7 +57,7 @@ if st.button("Generate Resume"):
             "LinkedIn": linkedin,
             "Degree": degree,
             "University": university,
-            "Graduation Year": grad_year,
+            " Graduation Year": grad_year,
             "Skills": skills.split(","),
             "Work Experience": work_exp,
             "Projects": projects.split(","),
